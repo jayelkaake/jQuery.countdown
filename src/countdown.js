@@ -124,7 +124,11 @@
       }
     }
     // Fix #187
-    if(Math.abs(count) > 1) {
+    // 2 secondS 
+    // 1 second
+    // 0 secondS 
+    // -1 secondS
+    if(count !== 1) {
       return plural;
     } else {
       return singular;
